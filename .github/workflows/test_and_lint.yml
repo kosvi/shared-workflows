@@ -6,8 +6,7 @@ on:
   workflow_call:
     inputs: 
       node_version:
-        default: '16'
-        type: string
+        default: 16
 
 jobs:
   test_and_lint:
