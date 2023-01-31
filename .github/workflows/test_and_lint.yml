@@ -7,6 +7,7 @@ on:
     inputs: 
       node_version:
         default: 16
+        type: number
 
 jobs:
   test_and_lint:
